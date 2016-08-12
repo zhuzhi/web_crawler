@@ -56,6 +56,8 @@ def get_peigu_all_east_money(num=10000):
 
     df_peigu_all_east_money = pandas.DataFrame(peigu_all_east_money, columns=col_names)
 
+    df_peigu_all_east_money.drop(["unknow0", "ZXJG", "unknow1"], axis=1, inplace=True)
+
     return df_peigu_all_east_money
 
 peigu_all = get_peigu_all_east_money(num=10000)
