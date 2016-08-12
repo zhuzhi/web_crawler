@@ -26,7 +26,7 @@ def get_peigu_all_east_money(num=10000):
 
     peigu_all_east_money = [element.split(",") for element in peigu_all_east_money]
 
-    col_names = ["unknow0", "GSDM", "stock_code", "stock_name", "PGDM",
+    col_names = ["unknow0", "GSDM", "ZQDM", "ZQMC", "PGDM",
                  "PGMC", "PGBL", "PGJG", "GB_BEF", "PGSL",
                  "GB_AFT", "GQDJR", "JKQSR", "JKJZR", "PGSSR",
                  "CQJZR", "SJMZZE", "SJMZJE", "CXFS", "PGGGR",
