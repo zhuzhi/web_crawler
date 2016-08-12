@@ -61,4 +61,4 @@ def get_peigu_all_east_money(num=10000):
     return df_peigu_all_east_money
 
 peigu_all = get_peigu_all_east_money(num=10000)
-peigu_all.to_csv(path_or_buf="./peigu_all_east_money", sep=",", index=True)
+peigu_all.to_csv(path_or_buf="./peigu_all_east_money", sep=",", index=False)
